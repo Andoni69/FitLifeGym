@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <!-- Definicion del canal -->
+
+    <channel>
+        <title>FitLife GYM</title>
+        <link>http://www.fitlifegym.com/index.html</link>
+
+        <atom:link href="http://www.fitlifegym.com/noticias.xml"
+               rel="self"
+               type="application/rss+xml"/>
+
+        <description>Actualización de las ultimas novedades y noticias del Gimnasio.</description>
+        <language>es-ES</language>
+        <pubDate>Sat, 21 Mar 2026 10:00:00 +0000</pubDate>
+        <managingEditor>aaguirre@ejemplo.com (Andoni Aguirre Jaca)</managingEditor>
+
+        <!-- Imagen del canal -->
+        <image>
+            <url>https://cdn.pixabay.com/photo/2014/04/03/10/43/weight-lifting-311241_1280.png</url>
+            <title>FitLife GYM</title>
+            <link>http://www.fitlifegym.com/index.html</link>
+        </image>
+
+        <!-- Definicion de los distintos items del canal -->
+
+        <item>
+            <title>Zona de entrenamiento</title>
+            <link>http://www.fitlifegym.com/noticia1.html</link>
+            <description>Nueva zona de entrenamiento funcional</description>
+            <author>cmartinez@ejemplo.com (Carlos Martinez)</author>
+            <pubDate>Wed, 04 Mar 2026 13:00:00 +0000</pubDate>
+            <guid>http://www.fitlifegym.com/noticia1.html</guid>
+        </item>
+
+        <item>
+            <title>Clases grupales</title>
+            <link>http://www.fitlifegym.com/noticia2.html</link>
+            <description>Nuevas clases de yoga para principiantes</description>
+            <author>lgomez@ejemplo.com (Laura Gómez)</author>
+            <pubDate>Tue, 03 Mar 2026 13:00:00 +0000</pubDate>
+            <guid>http://www.fitlifegym.com/noticia2.html</guid>
+        </item>
+
+        <item>
+            <title>Conócenos</title>
+            <link>http://www.fitlifegym.com/noticia3.html</link>
+            <description>Promoción especial para nuevos socios</description>
+            <author>powerfitgym@ejemplo.com (Equipo PowerFit)</author>
+            <pubDate>Mon, 02 Mar 2026 13:00:00 +0000</pubDate>
+            <guid>http://www.fitlifegym.com/noticia3.html</guid>
+        </item>
+
+    </channel>
+
+</rss>
